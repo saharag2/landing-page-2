@@ -1,6 +1,6 @@
 body {
    margin:0%;
-   
+   margin-bottom: 100px;
 
 }
 .color {
@@ -37,30 +37,85 @@ li {
     background-color: #1f2937;
     margin-left: 100px;
 }
+.text1 {
+    width:30%;
+}
 #one {
     font-size: 48px;
     font-weight: 900;
     color:#f9faf8;
+    margin-bottom: 0px;
 }
 #two {
     font-size: 18px;
-    color:#e5e7eb
+    color:#e5e7eb;
+    margin-bottom: 5px;
 }
 .sign-up {
+   
+}
+button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 800;
+    width: fit-content;
+    border-radius: 8px;
+    border-color: none;
+    size: 16px;
 }
 .image1 {
     display: flex;
-    justify-content: center;
-    align-items: left;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 #image1 {
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
+    
 }
 #image {
     width: 200px;
     height: 200px;
+    border-radius: 12px;
+    border: 6px #3882f6;
+}
+.part2 {
+    margin-bottom: 150px;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bolder;
+}
+.whiteblock {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.info {
+    max-width: 200px;
+}
+.part3 {
+    background-color: #e5e7eb;
+    width: 100%;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+#thor {
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+}
+.footer {
+    background-color: #1f2937;
+    position: fixed; bottom: 0%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #f9faf8;
+    width: 100%;
 }
